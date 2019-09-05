@@ -131,7 +131,7 @@ variable "initial_node_count" {
 variable "remove_default_node_pool" {
   type        = bool
   description = "Remove default node pool while setting up the cluster"
-  default     = false
+  default     = true
 }
 
 variable "disable_legacy_metadata_endpoints" {
